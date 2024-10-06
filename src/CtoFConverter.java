@@ -23,8 +23,7 @@ public class CtoFConverter
                 System.out.println("\nYou said your temp was: " + trash);
                 System.out.println("Enter a valid temp!");
             }
-        }
-        while(!done);
+        } while(!done);
         double tempFahrenheit = 32 + 1.8 * tempCelsius;
         System.out.println("The temperature of " + tempCelsius + " degrees C in Fahrenheit is " + tempFahrenheit + " degrees");
     }
