@@ -5,17 +5,17 @@ public class CtoFConverter
     {
         Scanner in = new Scanner(System.in);
         double tempCelsius = 0;
-        String trash = ""; // use for bad input which will read as a String
+        String trash = "";
 
         boolean done = false;
         do
         {
             System.out.print("Enter your temperature in Celsius: ");
-            if(in.hasNextDouble()) // OK safe to read in a double
+            if(in.hasNextDouble())
             {
                 tempCelsius = in.nextDouble();
-                in.nextLine(); // clears the newline from the buffer
-                done = true; // we got a valid number so we can end the loop
+                in.nextLine();
+                done = true;
             }
             else
             {
