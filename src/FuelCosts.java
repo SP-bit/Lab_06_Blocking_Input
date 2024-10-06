@@ -17,8 +17,8 @@ public class FuelCosts
             if(in.hasNextDouble())
             {
                 fuelTank = in.nextDouble();
-                in.nextLine(); // clears the newline from the buffer
-                done = true; // we got a valid number so we can end the loop
+                in.nextLine();
+                done = true;
             }
             else
             {
@@ -34,8 +34,8 @@ public class FuelCosts
             if(in.hasNextDouble())
             {
                 fuelEconomy = in.nextDouble();
-                in.nextLine(); // clears the newline from the buffer
-                doneTwo = true; // we got a valid number so we can end the loop
+                in.nextLine();
+                doneTwo = true;
             }
             else
             {
@@ -51,8 +51,8 @@ public class FuelCosts
             if(in.hasNextDouble())
             {
                 fuelCost = in.nextDouble();
-                in.nextLine(); // clears the newline from the buffer
-                doneThree = true; // we got a valid number so we can end the loop
+                in.nextLine();
+                doneThree = true;
             }
             else
             {
